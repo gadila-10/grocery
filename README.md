@@ -2,9 +2,11 @@ The various entities constituting the store are as follows:
 
 Product: A grocery store has products. The product is characterised by 3 properties:
 
-name
-price
-unique barcode id.
+**name**
+
+**price**
+
+**unique barcode id.**
 
 A grocery store can have multiple instances of the a product. There are classes representing clients and shopping baskets. The basket can contain multiple products and is associated with a client. The client is allowed to:
 Add an item (a piece of a product) into the basket.
